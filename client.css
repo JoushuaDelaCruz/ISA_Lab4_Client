@@ -1,0 +1,28 @@
+div {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+input {
+    margin: 5px;
+    height: 25px;
+    width: 50%;
+}
+p {
+    margin: 5px;
+    font-size: large;
+}
+button {
+    margin: 5px;
+    height: 25px;
+    width: 100px;
+    font-size: medium;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
