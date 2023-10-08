@@ -1,5 +1,5 @@
 const RESOURCE = "api/definitions/";
-const URL = `http://localhost:3000/${RESOURCE}`;
+const URL = `https://isa-server-lab4-f3b53ce2616e.herokuapp.com/${RESOURCE}`;
 
 const _errHandler = (response) => {
   const displayResponse = document.getElementsByTagName("main")[0];
